@@ -1,0 +1,31 @@
+{
+  "name": "crud-demo",
+  "version": "1.0.0",
+  "description": "this is a CRUD application using node express mongodb pug.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "pug"
+  ],
+  "author": "XA",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-node": "^0.1.0",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.3",
+    "connect-multiparty": "^2.2.0",
+    "express": "^3.4.8",
+    "express-messages": "^1.0.1",
+    "express-validator": "^5.3.1",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.3"
+  }
+}
